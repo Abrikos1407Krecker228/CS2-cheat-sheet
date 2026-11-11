@@ -1,0 +1,16 @@
+h1 {
+  color: blue;                  /* Цвет текста */
+  font-family: sans-serif;        /* Шрифт */
+  background-color: bisque;     /* Цвет фона */
+  border: 8px solid red;        /* 8 пикселей, бортик, цвет */
+  margin-bottom: 100px;           /* нижний отступ до следующего элемента */
+}
+
+body {
+  background-color: rgba(172, 243, 243, 0.644);
+}
+
+h2,                               /* объявление двух селекторов сразу через , */
+p {                                
+  color: green;
+}

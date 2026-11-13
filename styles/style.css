@@ -1,16 +1,27 @@
-h1 {
-  color: blue;                  /* Цвет текста */
-  font-family: sans-serif;        /* Шрифт */
-  background-color: bisque;     /* Цвет фона */
-  border: 8px solid red;        /* 8 пикселей, бортик, цвет */
-  margin-bottom: 100px;           /* нижний отступ до следующего элемента */
+html {
+  font-size: 20px;                      /* Высота шрифта для <p> для остального в (коэф.)rem */
+  font-family: "Inter", sans-serif;     /* Шрифт ко всему <html>*/
+  font-weight: 500;                     /* Толщина шрифта 100..900 */
+  font-style: normal;                   /* Начертание, без курсива (normal/italic) */
 }
 
 body {
   background-color: rgba(172, 243, 243, 0.644);
 }
 
+h1 {
+  color: blue;                  /* Цвет текста */
+  font-size: 45px;                /* Размер текста */
+  text-align: center;             /* Расположение - центр */
+  font-family: sans-serif;        /* Шрифт */
+  background-color: bisque;     /* Цвет фона */
+  border: 8px solid red;        /* 8 пикселей, бортик, цвет */
+  margin-bottom: 100px;           /* нижний отступ до следующего элемента */
+}
+
 h2,                               /* объявление двух селекторов сразу через , */
 p {                                
-  color: green;
+  color: black;
+ /* line-height: 1; межстрочный интервал */
+ /* letter-spacing: 1px; расстояние между символами */
 }

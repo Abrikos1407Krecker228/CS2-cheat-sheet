@@ -1,0 +1,42 @@
+html {
+  font-size: 20px;                      /* Высота шрифта для <p> для остального в (коэф.)rem */
+  font-family: "Inter", sans-serif;     /* Шрифт ко всему <html>*/
+  font-weight: 500;                     /* Толщина шрифта 100..900 */
+  font-style: normal;                   /* Начертание, без курсива (normal/italic) */
+}
+
+body {
+  width: 1200px;                    /* ширина <body> */
+  padding: 0 20px 20px 20px;        /* отступы верх/право/низ/лево */
+  border: 5px solid black;        /* ширина, стиль, цвет для границы */
+  margin: 0 auto;                   /* 0 - лево/право, auto верх/низ */
+  background-color: #fadfb9;      /* цвет фона <body> */
+}
+
+h1 {
+  color: blue;                  /* Цвет текста */
+  font-size: 45px;                /* Размер текста */
+  text-align: center;             /* Расположение - центр */
+  font-family: sans-serif;        /* Шрифт */
+  background-color: bisque;     /* Цвет фона <h1>*/
+  border: 8px solid red;        /* 8 пикселей, бортик, цвет */
+  margin-bottom: 50px;            /* нижний отступ до следующего элемента */
+  margin-top: 0;                  /* верхний отступ до следующего элемента */
+}
+
+h2,                               /* объявление двух селекторов сразу через , */
+p {                                
+  color: black;
+  /* line-height: 1; межстрочный интервал */
+  /* letter-spacing: 1px; расстояние между символами */
+}
+
+img {
+  display: block;       /* задать поведение блочного уровня для картинки */
+  max-width: 5%;
+}
+
+.done {
+  color: darkseagreen;
+  text-decoration: line-through solid black 2px;
+}
